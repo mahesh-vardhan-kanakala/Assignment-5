@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innomatics.in</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Custom styles for the header */
+        .header {
+            background-color: red; /* Change background color to red */
+            color: white; /* Change text color to white for contrast */
+            padding: 10px; /* Add some padding */
+            text-align: center; /* Center the text */
+        }
+        .header span {
+            margin-right: 20px; /* Add some spacing between spans */
+        }
+
+        /* Custom styles for the hero section */
+        .hero {
+            background-color: #dc3545; /* Change background color to red */
+            color: white; /* Ensure text is white */
+            height: 100vh; /* Full viewport height */
+        }
+
+        /* Service, Courses, and Contact sections */
+        .service, .course, .contact {
+            padding: 60px 0; /* Add padding to sections */
+            text-align: center;
+        }
+        .service h3, .course h3, .contact h3 {
+            margin-bottom: 20px;
+        }
+
+        /* Custom styles for buttons */
+        .btn-primary {
+            color: #fff;
+            background-color: #f00;
+            border-color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Contact Info -->
+    <div class="header bg-danger text-white text-center py-2">
+        <span>Enquire Now:</span>
+        <span>Hyd: <i class="fas fa-phone"></i> 1800 4120 0096</span>
+        <span>Pune: <i class="fas fa-phone"></i> 9951666671</span>
+        <span>Alternative Numbers: +91 9347804375 | +91 6304126766</span>
+    </div>
+
+    <!-- Header and Navbar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png" alt="Logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="internships.html">Internships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero text-white text-center d-flex align-items-center justify-content-center">
+        <div>
+            <h1>Welcome to Innomatics</h1>
+            <p>Your partner in learning and growth</p>
+            <a href="#" class="btn btn-light btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="service bg-light" id="services">
+        <h2>Our Services</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Consultation</h3>
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png" alt="Consultation" class="img-fluid">
+                    <p>We provide expert consultation in data science and analytics.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Training Programs</h3>
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/12/mb-banner.jpg" alt="Training Programs" class="img-fluid">
+                    <p>Join our comprehensive training programs tailored to your needs.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Job Placement Assistance</h3>
+                    <p>Get help with job placements in top companies after completing your training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="course bg-white" id="courses">
+        <h2>Our Courses</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Data Science</h3>
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/01/No-1-best-data-science-course-training-institute-in-hyderabad.jpg" alt="Data Science Course" class="img-fluid">
+                    <p>Learn data science from scratch with hands-on projects and expert guidance.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Machine Learning</h3>
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Full-Stack-Web-Development-training-program-Innomatics-research-labs-india.png" alt="Machine Learning Course" class="img-fluid">
+                    <p>Master the concepts of machine learning and build real-world applications.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Web Development</h3>
+                    <img src="https://www.innomatics.in/wp-content/uploads/2023/01/digital-marketing-course-training-hyderabad.jpg" alt="Web Development Course" class="img-fluid">
+                    <p>Become a full-stack developer with our intensive web development course.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="container my-5">
+        <h2 class="text-center mb-5">Learn More About Us</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact bg-light" id="contact">
+        <h2>Contact Us</h2>
+        <div class="container">
+            <p>If you have any questions, feel free to reach out!</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Innomatics Research Labs. All rights reserved.</p>
+        <div>
+            <a href="#" class="text-white mr-3">Privacy Policy</a>
+            <a href="#" class="text-white mr-3">Terms of Service</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
